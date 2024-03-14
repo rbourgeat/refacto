@@ -4,7 +4,12 @@ Refacto is a Visual Studio Code extension that allows you to refactor your code 
 
 ## Features
 
-- **Refactor Selected Code**: Simply select the code you want to refactor, right-click, and choose "✨ Refacto selected code" from the context menu.
+- **Refactor Selected Code**: Simply select the code you want to refactor, right-click, and choose "**✨ Refacto selected code**" from the context menu.
+
+## Requirements
+
+- [a llama cpp server](https://github.com/ggerganov/llama.cpp)
+- vscode
 
 ## Installation
 
@@ -14,6 +19,13 @@ Refacto is a Visual Studio Code extension that allows you to refactor your code 
 4. Select `Install Extension`
 5. Choose the extension `refacto`
 6. Reload Visual Studio Code
+
+## Build
+
+```bash
+npm i
+npm run compile
+```
 
 ## Usage
 

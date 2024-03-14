@@ -42,7 +42,7 @@ function activate(context) {
                             n_predict: -1,
                         })
 
-                        vscode.window.showInformationMessage(`Response data content: ${JSON.stringify(response.data, null, 2)}`);
+                        // vscode.window.showInformationMessage(`Response data content: ${JSON.stringify(response.data, null, 2)}`);
 
                         if (response.status === 200) {
                             if (response.data.content != "") {
